@@ -44,34 +44,34 @@ Right-click and select "Open image in a new tab" to view at 100%, or right-click
 These images were created using the [Absolute Reality model](https://civitai.com/models/81458/absolutereality), from a simple test prompt I made up.
 
 **Absolute Reality v1 (baseline model images)**
-![absolutereality_seeds](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/04fe1106-8fcd-4a60-866d-03cf2636fa94)
-![absolutereality1](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/698de3a0-2bb7-43b3-bd3e-7c1c75b38d61)
+![absolutereality_seeds](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/d69ef1e4-6cf6-4401-97bb-bc0eeeef8a2a)
+![absolutereality1](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/64f4fb70-0764-470d-a00a-07b8137000f5)
 
 **Absolute Reality v1 + CloneCleaner (default settings)**
-![absolutereality2](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/8efdffae-45f5-47e4-8544-8345435fe1ee)
+![absolutereality2](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/a495ac69-cf17-4be9-814f-389403280c39)
 
 **Absolute Reality v1 + CloneCleaner (East Asia only)**
-![absolutereality3](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/7059ec65-1f25-4155-bab5-968f6291b994)
+![absolutereality3](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/9aeeb238-e980-43a8-b5aa-c54baec0a41d)
 
 **Absolute Reality v1 + CloneCleaner (Anglosphere + Europe only, short hair only)**
-![absolutereality4](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/149ee7fe-f745-4cf0-af48-46d6d54db59e)
+![absolutereality4](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/f0218f86-9d53-4127-b9d9-5233e4e46776)
 
 ### Photon v1
 
 Using the prompt from the sample image hosted on the [Photon model page on Civitai](https://civitai.com/models/84728/photon), slightly modified to make it more SFW for Github.
 
 **Photon v1 (baseline model images)**
-![photon_seeds](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/4d66add9-fd6a-42b8-aea1-271e674af951)
-![photon1](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/bc586d3f-d4f1-4ffa-9859-40ae2deb6660)
+![photon_seeds](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/33fad4a4-651b-4806-92cc-3c1a01d58fc9)
+![photon1](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/cedea29e-c2c5-4c53-9569-2929db095971)
 
 **Photon v1 + CloneCleaner (default settings)**
-![photon2](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/3f2cac67-79a4-4067-8b52-57cda7c6bfdf)
+![photon2](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/5da77a58-06f2-45c7-8920-95bf25390de9)
 
 **Photon v1 + CloneCleaner (Africa + South Asia only, no blonde or "other" hair color)**
-![photon3](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/3d8a6379-1bd8-4c59-8059-26241530d254)
+![photon3](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/cf8759c4-9ada-4c6e-be6e-4829e3c34eeb)
 
 **Photon v1 + CloneCleaner (Europe only, reddish hair only)**
-![photon4](https://github.com/artyfacialintelagent/CloneCleaner-dev/assets/137619889/69a295f3-4347-4135-820c-ed62ee3cba0e)
+![photon4](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/58d1755a-1d0c-4c20-bc98-f00a80816147)
 
 # Some tips
 
