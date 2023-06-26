@@ -1,0 +1,286 @@
+hair:
+    length:
+        short: [short, (short-cut:1.2)]
+        medium: ["medium (shoulder-length:1.2)", "medium (chin-length:1.2)"]
+        long: [long, "long (waist-length:1.2)"]
+    style:
+        short: [straight, bangs, combed, "[undercut|punk]", undercut, brushed-back, slicked-back, brush-cut, pixie-cut, semi-buzzcut, buzzcut, mohawk-style, curly, spiky hairstyle, tussled, bob-cut, pigtails, twintails, ponytail]
+        medium: [straight, windblown, bangs, combed, brushed-back, slicked-back, brush-cut, grown-out pixie-cut, wavy, curly, mohawk-style, frizzy, wild, messy, bob-cut, updo, pigtails, twintails, ponytail]
+        long: [straight, windblown, bangs, combed, brushed-back, slicked-back, brush-cut, wavy, curly, frizzy, wild, messy, updo, glorious, pigtails, twintails, ponytail]
+    color:
+        blonde: [platinum-blonde, ash-blonde, champagne-blonde, sandy-blonde, honey-blonde, dirty-blonde, "[blonde:strawberry-blonde:.1]",
+                    "[blonde:vanilla-blonde:.2]", "[blonde:golden-blonde:.2]", "[blonde:reddish-blonde:.2]", "[blonde:rose-gold:.2]"]
+        red: [auburn, ginger, peach, "[auburn:coral:.3]", "[auburn:copper:.3]", "[auburn:reddish:.4]", "[auburn:crimson:.4]", "[auburn:orange:.4]"]
+        brown: [mocca, chestnut, hazelnut, caramel, cinnamon, coffee, chocolate, charcoal, "[honey-brown:.3]", "[golden-brown:.3]",
+                    "[noisette:.3]", "[bronze:.3]", "[mahogany:.2]", "[maroon:.4]", "[burgundy:.4]"]
+        black: ["[black:.3]", "[nearly black:.3]", "[blue-black:.3]", "[violet-black:.3]", "[reddish-black:.3]"]
+        other: ["[blonde:pastel:.2]", "[blonde:gray-blonde:.2]", "[blonde:silver-blonde:.2]", "[blonde:neon:.3]", "[blonde:multicolored:.3]",
+                    "[blonde:rainbow:.3]", "[blonde:pink:.3]", "[blonde:emerald:.3]", "[blonde:mint:.3]", "[blonde:teal:.3]", "[blonde:indigo:.3]",
+                    "[blonde:lilac:.3]", "[blonde:lavender:.3]", "[blonde:violet:.3]"]
+    defaultweight:
+        Europe:             {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+        Anglosphere:        {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+        MENA:               {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+        Sub-Saharan Africa: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+        Latin America:      {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+        East Asia:          {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+        South Asia:         {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+country:
+    Europe:
+        Sweden:
+            weight: 3
+            hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
+            names: [Astrid, Freja, Maja, Ebba, Linnea, Agnes, Amelia, Wilma, Elin, Lovisa, Liv, Alva, Märta, Sigrid, Lova, Emelie, Ida, Åsa, Hilma, Frida, Tyra, Siv, Linn]
+        Norway:
+            weight: 2
+            hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
+            names: [Hedda, Tiril, Tone, Agnes, Silje, Vilde, Martine, Stine, Maren, Mari, Synne, Hanne, Sigrid, Ingvild, Lene, Wenche, Maiken, Ragnhild]
+        Denmark:
+            weight: 2
+            hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
+            names: [Nanna, Signe, Amalie, Asta, Nora, Mette, Kirsten, Hanne, Helle, Lene, Lærke, Gry, Laura, Esther, Mathilde, Vera]
+        Finland:
+            weight: 2
+            hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
+            names: [Aino, Helmi, Aada, Onni, Venla, Iida, Eevi, Lilja, Kaarina, Enni, Elli, Pihla, Hannele, Marjatta, Minea, Hilla, Kerttu, Siiri, Veera, Nelli]
+        Scotland:
+            weight: 2
+            hair: {blonde: 20, red: 30, brown: 25, black: 20, other: 5}
+            names: [Isla, Ava, Amelia, Jamie, Sarah, Lucy, Fiona, Evie, Iona, Amy, Eilidh, Bonnie, Sienna, Callie, Skye, Holly, Eilish, Caitlin, Mairi, Moira]
+        Ireland:
+            weight: 2
+            hair: {blonde: 20, red: 30, brown: 25, black: 20, other: 5}
+            names: [Aoife, Niamh, Caoimhe, Maeve, Cian, Fiadh, Orla, Cara, Molly, Shannon, Kelly, Eabha , Roisin, Riley, Kennedy, Sloane, Fiona, Aisling]
+        Netherlands:
+            weight: 3
+            names: [Mila, Yara, Evi, Saar, Lieke, Noor, Lotte, Milou, Nova, Fenna, Isa, Roos, Loïs, Esmee, Fien, Lara, Jasmijn, Kiki, Veerle, Juul, Femke, Philou, Guusje]
+        Belgium:
+            weight: 3
+            names: [Marie, Olivia, Camille, Mila, Alexis, Julie, Sacha, Martine, Nathalie, Monique, Rita, Nicole, Christine, Isabelle]
+        Germany:
+            weight: 4
+            names: [Johanna, Heidi, Elke, Ilse, Ursula, Frieda, Helga, Anja, Eva, Leni, Berta, Eleonor, Frederike, Franka, Henriette, Irma, Luisa, Margarete]
+        Czech Republic:
+            weight: 3
+            names: [Barbora, Agata, Adela, Marketa, Karolina, Aneta, Jana, Tereza, Andrea, Zuzana, Martina, Dominika, Ema]
+        Poland:
+            weight: 4
+            names: [Antonina, Beata, Anastazja, Aniela, Genowefa, Adelajda, Brygida, Alina, Aldona, Estera, Ewelina, Adela, Augustyna, Aneta, Albina, Alfreda]
+        England:
+            weight: 4
+            names: [Ivy, Amelia, Emily, Alice, Hannah, Eleanor, Daisy, Phoebe, Evie, Florence, Ellie, Poppy, Rosie, Anne, Harriet, Jane, Rebecca, Mary, Alice, Elizabeth, Abigail, Holly, Lucy, Nancy]
+        France:
+            weight: 4
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names: [Camille, Chloé, Amélie, Celine, Anais, Dominique, Elise, Genevieve, Colette, Delphine, Jeanne, Sylvie, Margot, Eloise, Cecile, Inès, Lucie, Léonie]
+        Switzerland:
+            weight: 3
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names: [Laura, Alina, Mila, Lena, Lina, Alessia, Chiara, Andrea, Jana, Malia, Elea, Liana, Lara, Lia, Livia, Melina]
+        Austria:
+            weight: 3
+            names: [Johanna, Lena, Alina, Lea, Valentina, Amélie, Sophie, Magdalena, Marlene, Daniela, Hanna, Leni, Lara, Paulina, Frieda, Mathea, Liana]
+        Hungary:
+            weight: 3
+            names: [Lili, Aliz, Bianka, Lilla, Dorina, Dora, Mira, Zita, Emese, Izabella, Liza, Regina, Vivien]
+        Slovakia:
+            weight: 3
+            names: [Ema, Nina, Eliška, Viktória, Natália, Nela, Diana, Tamara, Júlia, Karolína, Michaela, Rebeka, Dominika, Lenka, Betka]
+        Croatia:
+            weight: 3
+            names: [Elena, Nika, Marta, Marija, Andrea, Ines, Adrijana, Mirjana, Lucija, Petra, Rita, Iva, Mila, Leona, Tena, Franka, Katja, Maša, Nikol, Bruna]
+        Serbia:
+            weight: 3
+            names: [Natalija, Ljubica, Milena, Marija, Adrijana, Mirjana, Jovana, Aleksa, Anja, Gordana, Tijana, Marina, Iskra, Petra]
+        Portugal:
+            weight: 3
+            names: [Leonor, Matilde, Beatriz, Carolina, Mariana, Ana, Sofia, Francisca, Inês, Margarida, Benedita, Madalena, Joana, Camila] 
+        Spain:
+            weight: 4
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names: [Ana, Sofia, Isabella, Lucia, Elena, Carmen, Lola, Mariana, Gabriela, Daniela, Adriana, Valeria, Esmeralda, Juana, Natalia]
+        Italy:
+            weight: 4
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names: [Francesca, Chiara, Giulia, Aurora, Bianca, Alessia, Andrea, Caterina, Lucia, Gaia, Isabella, Giovanna, Elisa, Gabriella, Valentina, Viola]
+        Greece:
+            weight: 3
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names: [Eleni, Katerina, Vasiliki, Sophia, Angeliki, Georgia, Dimitra, Konstandina, Paraskevi, Anastasia, Joanna, Danae, Athina, Melina, Ioanna]
+        Romania:
+            weight: 3
+            names: [Antonia, Andreea, Ioana, Alexandra, Luminita, Alina, Bianca, Iolanda, Lavinia, Daniela, Stefana, Doina, Simona, Iulian, Claudia, Angelika]
+        Turkey:
+            weight: 4
+            names: [Elif, Ayşe, Asli, Azra, Aysun, Emel, Dilara, Derya, Afet, Alara, Beyza, Damla, Meryem, Ceren, Nuray, Miray, Ayten, Esra, Eymen, Caria, Esma]
+        Ukraine:
+            weight: 4
+            names: [Aleksandra, Daryna, Olena, Lavra, Ivanna, Anastasia, Bohdana, Maryska, Ionna, Alisa, Nyura, Alina, Aneta, Myroslava, Marynia, Galyna, Nastunye, Nastasiya]
+        Belarus:
+            weight: 3
+            names: [Alina, Elena, Ekaterina, Anya, Faina, Darya, Svetlana, Aleksandra, Natasha, Arina, Alisa, Natalia]
+        Russia:
+            weight: 5
+            names: [Anastasia, Irina, Galina, Anya, Alina, Svetlana, Mila, Ekaterina, Angelina, Oksana, Olga, Nikita, Natasha, Arina, Kira, Sasha, Alisa, Nadia, Alla, Darya]
+    Anglosphere:
+        England:
+            weight: 4
+            names: [Ivy, Amelia, Emily, Alice, Hannah, Eleanor, Daisy, Phoebe, Evie, Florence, Ellie, Poppy, Rosie, Anne, Harriet, Jane, Rebecca, Mary, Alice, Elizabeth, Abigail, Holly, Lucy, Nancy]
+        USA:
+            weight: 5
+            names: [Charlotte, Amelia, Emma, Abigail, Alice, Mia, Eleanor, Sarah, Evelyn, Olivia, Grace, Sophia, Emily, Zuri, Destiny, Amari, Nia, Michelle, Brianna, Ebony,
+                        Eshe, Candice, Tiana, Toni, Jasmine, Simone, Tiffany, Nala, Camila, Sofia, Elena, Valentina, Natalia, Lucia, Alaia, Ximena, Valeria, Catalina]
+        Canada:
+            weight: 3
+            names: [Emily, Amelia, Sarah, Mila, Ellie, Mackenzie, Claire, Lily, Zoey, Evelyn, Avery, Abigail, Madison, Madeline, Everly, Ivy, Hailey, Addison]
+        Australia:
+            weight: 3
+            names: [Charlotte, Amelia, Ava, Sienna, Matilda, Evie, Zara, Mackenzie, Aria, Violet, Florence, Ivy, Elsie, Layla, Frankie, Daisy, Sadie, Stella, Millie]
+        New Zealand:
+            weight: 1
+            names: [Lilly, Lainie, Heide, Emme, Opal, Lacey, Livvie, Adalie, Sidonie, Dunja, Gitta, Kiani, Kenia, Rubia, Ophélie, Zäzilie, Zina, Marli, Meya]
+    MENA:
+        Israel:
+            weight: 2
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names: [Ariel, Leah, Rachel, Esther, Naomi, Talia, Shira, Yael, Lia, Aviva, Moriah, Delilah, Romi]
+        Lebanon:
+            weight: 2
+            names: [Nour, Aya, Alaa, Souad, Reewa, Ilham, Salwa, Sawsane, Fatme, Dina, Elza, Ghofran, Farah]
+        Iran:
+            weight: 4
+            names: [Bahar, Fatemeh, Anahita, Fariba, Parisa, Shirin, Darya, Zahra, Maryam, Yasmin, Rana, Mahsa, Nasrin, Cyra, Haleh]
+        Syria:
+            weight: 2
+            names: [Amena, Reem, Qamar, Haya, Ousa, Rosarita, Aischa, Hala, Uri, Rojda, Layal, Ranim, Souzan]
+        Saudi Arabia:
+            weight: 3
+            names: [Fatima, Jamila, Amira, Hanifa, Farida, Halima, Farah, Malika, Nabila, Habiba, Maha, Karima, Khalida, Maryam, Tahira, Ghada, Nadia, Naila]
+        Egypt:
+            weight: 4
+            names: [Jana, Amunet, Mariam, Salma, Jamila, Aya, Anippe, Halima, Jomana, Isis, Renenutet, Farida, Dalia, Dendera, Eshe, Amal, Yasmin]
+        Algeria:
+            weight: 3
+            names: [Yasmine, Amina, Inčs, Amel, Meriem, Rania, Asma, Nesrine, Mina, Feriel, Anais, Ikram, Camelia, Chiraz, Dounia, Samira]
+        Morocco:
+            weight: 3
+            names: [Amina, Fatima, Salma, Aziza, Faiza, Hajar, Ikram, Farah, Naima, Layla, Adil, Amal, Amira, Jamila, Marwa, Inès, Rania, Zineb]
+    Sub-Saharan Africa:
+        Nigeria:
+            weight: 5
+            names: [Tami, Remi, Sade, Ima, Toya, Tobi, Tomi, Tari, Ajah, Tona, Nneka, Dola, Chioma, Chimere, Zelie, Tonna, Timi, Amarachi, Chiamaka, Adanna, Chinyere]
+        Ethiopia:
+            weight: 4
+            names: [Kayla, Aisha, Amara, Ayana, Zena, Sheba, Amira, Gabra, Jahzara, Makda, Nyala]
+        Congo:
+            weight: 4
+            names: [Belvie, Mado, Rosine, Ruth, Malicia, Exaucée, Keicha, Grasnie, Benie, Chinelvie, Fiavina, Mireille, Aminata, Dayana, Peniel, Taime]
+        Tanzania:
+            weight: 3
+            names: [Mila, Nia, Lulu, Malia, Imani, Asha, Zahra, Aida, Asma, Kali, Lela, Habiba, Rabia, Tisha, Shani, Khadija, Naima]
+        South Africa:
+            weight: 3
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names: [Melokuhle, Omphile, Iminathi, Lisakhanya, Lethabo, Amahle, Lesedi, Rethabile, Christal, Danelle, Alida, Marli, Gerrie, Mariette, Aletta, Leane, Lizanne, Lindie, Elize]
+        Kenya:
+            weight: 3
+            names: [Mila, Imani, Cora, Nia, Kamaria, Nadia, Mumbi, Lulu, Zahra, Lela, Habiba, Shani, Khadija, Naima, Aluna, Kamaria, Zakiya]
+        Uganda:
+            weight: 3
+            names: [Florence, Joan, Sarah, Alice, Tracy, Evelyn, Hanifah, Mariam, Charity, Martha, Angel, Catherine, Patricia, Blessing, Patience, Diana, Ritah]
+        Sudan:
+            weight: 3
+            names: [Roaa, Ruba, Abrar, Felicia, Akong, Doaa, Esraa, Rayan, Nancy, Anila, Kate, Naelia]
+        Angola:
+            weight: 2
+            names: [Ooli, Samara, Hannah, Jazmine, Leila, Hiki, Miranda, Rosine, Cynthia, Nattat, Lara, Christina, Abigail]
+        Mozambique:
+            weight: 2
+            names: [Gaia, Gabrielle, Chelsea, Leila, Hedda, Hyacinta, Xiluva]
+        Ghana:
+            weight: 2
+            names: [Beatrice, Sandra, Priscilla, Abigail, Angela, Esther, Barbara, Alberta, Doris, Linda, Cecilia, Blessing, Maame, Ruth, Patricia, Nancy, Eunice, Janet]
+        Madagascar:
+            weight: 2
+            names: [Miora, Stephanie, Aina, Rotsy, Domoina, Cynthia, Raissa, Erica, Aliciah, Lili, Miantsa, Christelle, Linah, Tsiky, Hanitra]
+        Cameroon:
+            weight: 2
+            names: [Joaddan, Armelle, Sandra, Esther, Daniella, Tracy, Rosy, Mylléna, Jade, Carine, Maeva, Tatiana]
+    Latin America:
+        Brazil:
+            weight: 5
+            names: [Maria, Fernanda, Ana, Gabriela, Aline, Francisca, Beatriz, Julia, Bruna, Antonia, Clara, Helena, Marcia, Flavia, Juliana, Patricia, Vitoria, Bianca]
+        Mexico:
+            weight: 4
+            names: [Juana, Gabriela, Isabella, Elena, Alejandra, Lola, Ana, Lucia, Rosa, Veronica, Daniela, Fernanda, Valeria, Valentina, Carmen, Catalina, Leticia, Francisca, Mariana, Luna]
+        Colombia:
+            weight: 3
+            names: [Isabella, Ana, Daniela, Mariana, Gabriela, Valentina, Luciana, Carmen, Adriana, Guadalupe, Antonia, Natalia, Lucia, Bianca, Clara, Lina, Rosa, Lola]
+        Argentina:
+            weight: 3
+            names: [Camila, Agustina, Paula, Valentina, Ana, Julieta, Micaela, Martina, Daiana, Natalia, Carolina, Noelia, Lucia, Juana]
+        Peru:
+            weight: 3
+            names: [Agata, Alejandra, Antonella, Arsenia, Beatriz, Claudia, Daniela, Dominga, Evita, Guadalupe, Irene, Karmina, Manuela, Maritza, Ofelia, Pilar, Roberta, Teresa, Valentina, Xaviera, Ximena]
+        Venezuela:
+            weight: 3
+            names: [Gioia, Aymar, Consuelo, Mariángela, Gabriela, Vanessa, Selene, Susana, Paola, Federica, Mariam, Claudia, Carolina, Ligia]
+        Chile:
+            weight: 2
+            names: [Isabella, Valentina, Laura, Catalina, Fernanda, Mila, Florencia, Julieta, Gabriela, Isidora, Martina, Josefa, Daniela, Antonia, Constanza, Agustina, Lucia]
+        Ecuador:
+            weight: 2
+            names: [Ana, Gabriela, Maria, Camila, Carla, Elena, Graciela, Lucia, Giselle, Andrea, Daniela, Viviana, Juliana]
+        Guatemala:
+            weight: 2
+            names: [Michelle, Andrea, Esmeralda, Rosa, Luz, Belen, Camila, Isabela, Angelita]
+        Cuba:
+            weight: 1
+            names: [Adelgonda, Agata, Alegria, Alejandra, Angela, Arsenia, Beatriz, Bertalina, Daniela, Dominga, Evita, Georgina, Guadalupe, Havana, Ivelisse, Karmina, Manuela, Maritza, Pabla, Pilar, Roberta, Teresa, Ximena, Yamile]
+    East Asia:
+        China:
+            weight: 5
+            names: [Huan, Ling, Feng, Bao, Jie, Ping, Mei, Liu, Xia, Lian, Chun, Chang, Qing, Xiang, Xue, Qiao, Lei, Caihong, Ying, Jiayi, Lanying]
+        Mongolia:
+            weight: 1
+            names: [Sunjidmaa, Minjinsor, Darimaa, Solongo, Yanjmaa, Ariunzaya, Khongorzul, Gankhuyagiin, Davaademberel, Batkhuyagiin, Batchimeg, Yanjaa, Ankhmaa, Namgar, Nominjin]
+        South-Korea:
+            weight: 2
+            names: [Seo-yeon, Min-seo, Seo-hyeon, Su-bin, Yoo-jin, Min-ji, Seo-yeong, Ji-won, Soo-min, Ye-won, Mi-sun, Hyo-Sonn, Sun-Hee]
+        Taiwan:
+            weight: 1
+            names: [Shu-fen, Shu-hui, Mei-ling, Ya-ting, Mei-hua, Li-hua, Shu-chen, Yi-chun, Tzu-hui, Xian-cha, Ching-min, Chun-yi, Jiau-hua, Ming-zhu, Pei-chien, Pei-yu, Shu-Fang, Xiu-xi]
+        Hong Kong:
+            weight: 1
+            names: [Ellie, Avery, Charlotte, Renee, Cheryl, Evelyn, Hailey, Cynthia, Sylvia, Ally, Hannah, Chloe, Daphne, Aria, Riley, Emily, Mandy, Amber, Catherine, Natalie, Lily, Michelle]
+        Japan:
+            weight: 2
+            names: [Aoi, Akari, Sakura, Ayaka, Akira, Aki, Hinata, Akane, Hikari, Keiko, Kei, Chiyo, Kaede, Ayame, Hanako, Ayako, Akiko, Chika, Ayumi, Yuki]
+        Indonesia:
+            weight: 2
+            names: [Aulia, Budiwati, Bulan, Citra, Gendis, Indri, Kadek, Kemala, Komang, Lestari, Maharani, Melati, Mawar, Mayang, Ningrum, Ningsih, Permata, Pertiwi, Puspita, Putri, Ratih, Sinta, Siti, Wati, Yanti]
+        Philippines:
+            weight: 2
+            names: [Joyce, Cindy, Ruby, Michelle, Serena, Jewel, Nancy, Alodia, Bianca, Chynna, Coleen, Diane, Isabel, Janine, Mariel, Nina, Rachel, Valerie]
+        Vietnam:
+            weight: 2
+            names: [Anh, Bao, Chau, Chinh, Chi, Dao, Duong, Giang, Hoa, Huong, Khanh, Khuyen, Linh, Loan, Minh, Mai, Ngan, Nhung, Nguyet, Phuong, Quyen, Suong, Thanh, Thuy, Trinh, Vinh, Xinh, Xuyen]
+        Thailand:
+            weight: 2
+            names: [Dara, Kamala, Mali, Han, Chariya, Arich, Anchali, Chanthira, Mani, Rune, Kanya, Khajee, Naiyana, Pakpao, Ying, Chalermwan, Chantana, Hansa, Maliwan]
+    South Asia:
+        India:
+            weight: 5
+            names: [Saanvi, Anika, Aditi, Prisha, Aarna, Divya, Parvati, Jiya, Riya, Aaradhya, Myra, Isha, Siya, Anaya, Anaisha, Jaya, Aarya, Ahana, Zara, Gayatri, Aarushi, Aarvi, Adya, Damini]
+        Pakistan:
+            weight: 2
+            names: [Fatima, Inaya, Haniya, Maira, Zainab, Aafreen, Zoya, Neha, Aabish, Aaeedah, Eman, Aaminah, Aalia, Aamaal, Aamira, Aadila, Anabia, Anam, Sana]
+        Bangladesh:
+            weight: 2
+            names: [Barsha, Farhan, Megh, Chandni, Rifah, Hridi, Labiba, Rafia, Disha, Muhaiminul, Abida, Oporajita, Sharmin, Fariha, Nawrin, Samreen, Anamika, Rafsan, Meghbalika, Sanjana, Ranya]
+        Nepal:
+            weight: 1
+            names: [Dhanvi, Ditya, Gamya, Ehani, Chirasmi, Fatehjit, Binsa, Chaha, Bhavisana, Bilhana, Shanoli, Chirashree, Bhavaroopa, Kasmitha, Kopisha, Feba, Feshikha, Chaarumathi, Eenakshi, Chantin, Chimini, Baijanthi]
+        Sri Lanka:
+            weight: 1
+            names: [Hiruni, Tharushi, Sachini, Bhagya, Nethmi, Janani, Sanduni, Thilini, Rashmi, Samadhi, Harshani, Upeksha, Nipuni, Dinithi, Chathu, Senuri, Hansani, Chalani, Shehara, Gayani]
