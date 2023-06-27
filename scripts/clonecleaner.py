@@ -49,9 +49,9 @@ class CloneCleanerScript(scripts.Script):
     def ui(self, is_img2img):
         with gr.Accordion("CloneCleaner (beta!)", open=True):
             dummy_component = gr.Label(visible=False)
-            regions = self.prompt_tree["country"].keys()
-            hairlength = self.prompt_tree["hair"]["length"].keys()
-            haircolor = self.prompt_tree["hair"]["color"].keys()
+            regions = list(self.prompt_tree["country"].keys())
+            hairlength = list(self.prompt_tree["hair"]["length"].keys())
+            haircolor = list(self.prompt_tree["hair"]["color"].keys())
             with FormRow():
                 with FormColumn(min_width=160):
                     is_enabled = gr.Checkbox(value=True, label="Enable CloneCleaner")
