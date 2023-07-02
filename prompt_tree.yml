@@ -66,9 +66,6 @@ country:
         Poland:
             weight: 4
             names: [Antonina, Beata, Anastazja, Aniela, Genowefa, Adelajda, Brygida, Alina, Aldona, Estera, Ewelina, Adela, Augustyna, Aneta, Albina, Alfreda]
-        England:
-            weight: 4
-            names: [Ivy, Amelia, Emily, Alice, Hannah, Eleanor, Daisy, Phoebe, Evie, Florence, Ellie, Poppy, Rosie, Anne, Harriet, Jane, Rebecca, Mary, Alice, Elizabeth, Abigail, Holly, Lucy, Nancy]
         France:
             weight: 4
             hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
