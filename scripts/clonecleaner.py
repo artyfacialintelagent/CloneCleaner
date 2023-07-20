@@ -47,14 +47,15 @@ class CloneCleanerScript(scripts.Script):
         return scripts.AlwaysVisible
     
     def ui(self, is_img2img):
-        with gr.Accordion("CloneCleaner (beta!)", open=True):
+        enabled = getattr(shared.opts, "enable_clonecleaner_by_default", True)
+        with gr.Accordion("CloneCleaner (beta!)", open=enabled):
             dummy_component = gr.Label(visible=False)
             regions = self.prompt_tree["country"].keys()
             hairlength = self.prompt_tree["hair"]["length"].keys()
             haircolor = self.prompt_tree["hair"]["color"].keys()
             with FormRow():
                 with FormColumn(min_width=160):
-                    is_enabled = gr.Checkbox(value=True, label="Enable CloneCleaner")
+                    is_enabled = gr.Checkbox(value=enabled, label="Enable CloneCleaner")
                 with FormColumn(elem_id="CloneCleaner_gender"):
                     gender = gr.Radio(["female", "male", "generic"], value="female", label="Male & generic not yet implemented.", elem_classes="ghosted")
                     gender.style(container=False, item_container=False)
@@ -209,8 +210,18 @@ class CloneCleanerScript(scripts.Script):
 
 # read with shared.opts.prompt_database_path
 def on_ui_settings():
-    info = shared.OptionInfo("prompt_tree.yml", "CloneCleaner prompt database path", section=("clonecleaner", "CloneCleaner"))
+    section=("clonecleaner", "CloneCleaner")
+    info = shared.OptionInfo("prompt_tree.yml", "CloneCleaner prompt database path", section=section)
     shared.opts.add_option("prompt_database_path", info)
+    shared.opts.add_option(
+        "enable_clonecleaner_by_default",
+        shared.OptionInfo(
+            True,
+            "enable CloneCleaner by default",
+            gr.Checkbox,
+            section=section
+            )
+    )
     # shared.opts.add_option("option1", shared.OptionInfo(
     #     False,
     #     "option1 description",
