@@ -47,14 +47,14 @@ class CloneCleanerScript(scripts.Script):
         return scripts.AlwaysVisible
     
     def ui(self, is_img2img):
-        with gr.Accordion("CloneCleaner (beta!)", open=True):
+        with gr.Accordion("CloneCleanerZ", open=False):
             dummy_component = gr.Label(visible=False)
             regions = self.prompt_tree["country"].keys()
             hairlength = self.prompt_tree["hair"]["length"].keys()
             haircolor = self.prompt_tree["hair"]["color"].keys()
             with FormRow():
                 with FormColumn(min_width=160):
-                    is_enabled = gr.Checkbox(value=True, label="Enable CloneCleaner")
+                    is_enabled = gr.Checkbox(value=False, label="Enable CloneCleaner")
                 with FormColumn(elem_id="CloneCleaner_gender"):
                     gender = gr.Radio(["female", "male", "generic"], value="female", label="Male & generic not yet implemented.", elem_classes="ghosted")
                     gender.style(container=False, item_container=False)
